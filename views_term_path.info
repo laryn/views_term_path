@@ -1,4 +1,6 @@
 name = Views term path
 description = Views field handler for display taxonomy term path
-core = 7.x
+backdrop = 1.x
+type = module
+
 files[] = views_term_path_handler_field_path.inc

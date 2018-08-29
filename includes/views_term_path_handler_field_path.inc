@@ -20,11 +20,7 @@ class views_term_path_handler_field_path extends views_handler_field {
   function construct() {
     parent::construct();
     $this->additional_fields['tid'] = 'tid';
-    $this->additional_fields['vid'] = 'vid';
-    $this->additional_fields['vocabulary_machine_name'] = array(
-      'table' => 'taxonomy_vocabulary',
-      'field' => 'machine_name',
-    );
+    $this->additional_fields['vocabulary'] = 'vocabulary';
   }
 
   function options_form(&$form, &$form_state) {
