@@ -4,7 +4,10 @@
  * Implements of hook_views_api().
  */
 function views_term_path_views_api() {
-  return array('api' => 3);
+  return array(
+    'api' => 3,
+    'path' => backdrop_get_path('module', 'views_term_path') . '/views',
+  );
 }
 
 /**
@@ -15,9 +18,3 @@ function views_term_path_autoload_info() {
     'views_term_path_handler_field_path' => 'includes/views_term_path_handler_field_path.inc',
   );
 }
-
-/**
-  * Load include file.
-  */
-module_load_include('inc','views_term_path','includes/views_term_path.views');
-
