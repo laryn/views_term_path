@@ -41,6 +41,11 @@ class views_term_path_handler_field_path extends views_handler_field {
 
   function render($values) {
     $tid = $this->get_value($values, 'tid');
+
+    if (!$tid) {
+      return '';
+    }
+
     return url("taxonomy/term/$tid", array('absolute' => $this->options['absolute']));
   }
 }
