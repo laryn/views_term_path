@@ -1,5 +1,7 @@
 # Views Term Path
 
+This functionality is in core as of Backdrop 1.20.3. [Details here](https://github.com/backdrop/backdrop-issues/issues/5338).
+
 Views Term Path allows you to add the path to a term's content page when using
 Views. It is originally based on the `views_handler_field_node_path` field 
 handler.
@@ -16,11 +18,13 @@ Bugs and Feature requests should be reported in the
 
 ## Current Maintainers
 
- - [Laryn Kragt Bakker](https://github.com/laryn) - [CEDC.org](https://cedc.org)
+ - No longer actively maintained since functionality is in core.
+ - [Laryn Kragt Bakker](https://github.com/laryn)
 
 ## Credits
 
-- Ported to Backdrop CMS by [Laryn Kragt Bakker](https://github.com/laryn) - [CEDC.org](https://cedc.org).
+- Ported to Backdrop CMS by [Laryn Kragt Bakker](https://github.com/laryn).
+- Port to Backdrop was sponsored by [CEDC.org](https://cedc.org).
 - Maintainer for Drupal: [xandeadx](https://www.drupal.org/u/xandeadx).
 
 ## License
